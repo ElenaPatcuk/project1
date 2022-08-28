@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body{
-    background: url(/img/pose.jpg) no-repeat fixed;
+    background: url(../img/pose.jpg) no-repeat fixed;
     background-size:100%;
     color: white;
 }
