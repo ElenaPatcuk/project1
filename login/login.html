@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+       
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="login">
+
+            <div class="back">
+                <img class="arrow" src="/icon/arrowB.png" alt="arrow">
+                <a class='a' href="/extraSearch/reg.html"><p>Back</p></a>
+            </div>
+            <form action="page.php">
+                <h1>Login</h1>
+
+                <div><label for="email">Email address</label></div>
+                <input type="text"  id="email" name="email" required>
+                <p class="error"></p>
+
+                <div class="psw">
+                    <label for="psw">Password</label>
+                    <a class='a' href="newPsw.html">Request new password</a>
+                </div>
+                <input type="password" id="password" name="psw" required>
+                <p class="error"></p>
+
+                <div><button id='login' type="submit">Login</button></div>
+            </form>
+        
+            <div class="question">
+                <p class="Gantari">Not a supported yet?</p>
+                <p>Support creativity (including your own!)</p>
+                <a href="http://127.0.0.1:5500/index.html?s=#">Join Extra Nice today</a>
+            </div>
+        </div>
+        <div class="gif"></div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@300&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+.m{
+    position: relative;
+    z-index: 7;
+}
+
+.layer{
+    position: absolute;
+    left:-10%;
+    top: -10%;
+    width: 110%;
+    height: 110%;
+}
+
+.bg{
+    background: url(/img/extraSearchBG.jpg) no-repeat center;
+    filter: blur(30px);
+    background-size: cover;
+}
+
+.es{
+    display: inline-flex;
+    position: absolute;
+    background: black;
+    color: aliceblue;
+    width: 80%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.Alegreya{
+    font-family: 'Martel', serif;
+    margin: 1em 0 2em 0;
+}
+
+.estxt{
+    display: table;
+    width: 60%;
+    margin: 2em 2em;
+}
+
+.estxt h1{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+}
+
+.btn{
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    background: rgba(230, 70, 245, 0.788);
+}
+.btn:hover{
+    background: rgba(230, 70, 245);
+
+}
+
+.btn a{
+    font-family: 'Gantari', sans-serif;
+    color: rgba(0, 0, 0, 0.623);
+    text-decoration: none;
+}
+
+.question{
+    display: table-row;
+}
+
+.Gantari{
+    font-family: 'Gantari', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.question a{
+    color: white;
+}
+
+.picture{
+    background-color: white;
+    background: url(/img/cat.gif) no-repeat center;
+    background-size: cover;
+    width: 40%;
+}
