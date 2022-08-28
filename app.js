@@ -79,18 +79,3 @@ burger.addEventListener('click', ()=>{
     }
 })
 
-
-
-
-// ymaps.ready(function(){
-//     let myMap = new ymaps.Map('YMapsID', {
-//         center: [52.03, 113.50],
-//         zoom: 13,
-//     })
-//     let myPlacemark = new ymaps.Placemark([52.03, 113.50], {
-//         content: 'Piter',
-//         balloonContent: 'html-контент',
-//     })
-
-//     myMap.geoObjects.add(myPlacemark)
-// })
