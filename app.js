@@ -78,4 +78,3 @@ burger.addEventListener('click', ()=>{
         obj.flag = 'none'
     }
 })
-
