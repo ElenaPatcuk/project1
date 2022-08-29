@@ -22,11 +22,11 @@ menu.addEventListener('mouseover', ()=> {
 })
 
 reg.addEventListener('mouseover', ()=> {
-    reg.setAttribute('src', '/icon/fan.png')
+    reg.setAttribute('src', './icon/fan.png')
 })
 
 reg.addEventListener('mouseout', ()=> {
-    reg.setAttribute('src', '/icon/sad.png')
+    reg.setAttribute('src', './icon/sad.png')
 })
 
 menu.addEventListener('mouseout', ()=> {
