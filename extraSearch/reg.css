@@ -29,7 +29,7 @@
 }
 
 .bg{
-    background: url(/img/extraSearchBG.jpg) no-repeat center;
+    background: url(./img/extraSearchBG.jpg) no-repeat center;
     filter: blur(30px);
     background-size: cover;
 }
@@ -95,7 +95,7 @@
 
 .picture{
     background-color: white;
-    background: url(/img/cat.gif) no-repeat center;
+    background: url(./img/cat.gif) no-repeat center;
     background-size: cover;
     width: 40%;
 }
